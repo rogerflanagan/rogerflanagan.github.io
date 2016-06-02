@@ -60,7 +60,7 @@ $(document).ready(function() {
          // remove if below
          getRelatedNavigation(this).toggleClass('eros-nav__link-active', direction === 'down');
        }, {
-         offset: '90%' //
+         offset: '60%' //
        })
        .waypoint(function(direction) {
          // Highlight element when bottom of related content
