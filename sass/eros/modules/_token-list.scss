@@ -142,6 +142,10 @@
     width: 50px !important;
 }
 
+.token-value--br-circle:after {
+    border-radius: $border-radius-circle;
+}
+
 .token-value--bs-input:after {
     box-shadow: $box-shadow-input;
 }

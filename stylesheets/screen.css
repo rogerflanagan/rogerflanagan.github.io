@@ -998,22 +998,26 @@
   width: 50px !important;
 }
 /* line 145, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--br-circle:after {
+  border-radius: 50%;
+}
+/* line 149, ../sass/eros/modules/_token-list.scss */
 .eros .token-value--bs-input:after {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 149, ../sass/eros/modules/_token-list.scss */
+/* line 153, ../sass/eros/modules/_token-list.scss */
 .eros .token-value--bs-input-focus:after {
   box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
 }
-/* line 153, ../sass/eros/modules/_token-list.scss */
+/* line 157, ../sass/eros/modules/_token-list.scss */
 .eros .token-value--bs-input-error:after {
   box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
 }
-/* line 157, ../sass/eros/modules/_token-list.scss */
+/* line 161, ../sass/eros/modules/_token-list.scss */
 .eros .token-value--bs-button-active:after {
   box-shadow: inset 0 0 8px rgba(34, 34, 34, 0.75);
 }
-/* line 161, ../sass/eros/modules/_token-list.scss */
+/* line 165, ../sass/eros/modules/_token-list.scss */
 .eros .token-value--bs-medium:after {
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
 }
