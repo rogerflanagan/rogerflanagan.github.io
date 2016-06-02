@@ -16,17 +16,18 @@
 
 .eros-nav__dropdown-indicator {
     @include vertically-center;
+    height: 15px;
     right: 15px;
     width: 10px;
 
     &:before,
     &:after {
-        border-top: $border-width-thin solid $color-grey;
-        border-right: $border-width-thin solid $color-grey;
+        border-top: $border-width-thin solid $color-dark-grey;
+        border-right: $border-width-thin solid $color-dark-grey;
         content: '';
-        height: 10px;
+        height: 5px;
         position: absolute;
-        width: 10px;
+        width: 5px;
     }
 
     &:before {
@@ -35,7 +36,7 @@
     }
 
     &:after {
-        @include transform(rotate(45deg));
+        @include transform(rotate(135deg));
         bottom: 0;
     }
 }

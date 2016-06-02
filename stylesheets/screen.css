@@ -455,19 +455,20 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  height: 15px;
   right: 15px;
   width: 10px;
 }
-/* line 22, ../sass/eros/_eros-nav.scss */
+/* line 23, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-indicator:before, .eros .eros-nav__dropdown-indicator:after {
-  border-top: 1px solid #D6D6D6;
-  border-right: 1px solid #D6D6D6;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
   content: '';
-  height: 10px;
+  height: 5px;
   position: absolute;
-  width: 10px;
+  width: 5px;
 }
-/* line 32, ../sass/eros/_eros-nav.scss */
+/* line 33, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-indicator:before {
   transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -475,24 +476,24 @@
   transform: rotate(-45deg);
   top: 0;
 }
-/* line 37, ../sass/eros/_eros-nav.scss */
+/* line 38, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-indicator:after {
-  transform: rotate(45deg);
-  transform: rotate(45deg);
-  transform: rotate(45deg);
-  transform: rotate(45deg);
+  transform: rotate(135deg);
+  transform: rotate(135deg);
+  transform: rotate(135deg);
+  transform: rotate(135deg);
   bottom: 0;
 }
-/* line 43, ../sass/eros/_eros-nav.scss */
+/* line 44, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__link {
   display: block;
   padding: 15px;
 }
-/* line 47, ../sass/eros/_eros-nav.scss */
+/* line 48, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__link:hover {
   background: #FFFFFF;
 }
-/* line 52, ../sass/eros/_eros-nav.scss */
+/* line 53, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__link-active:before {
   position: absolute;
   top: 50%;
@@ -504,7 +505,7 @@
   right: 15px;
   width: 10px;
 }
-/* line 62, ../sass/eros/_eros-nav.scss */
+/* line 63, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown {
   background: #FFFFFF;
   border: 1px solid #D4ECF8;
@@ -516,22 +517,22 @@
   top: 100%;
   z-index: 1;
 }
-/* line 74, ../sass/eros/_eros-nav.scss */
+/* line 75, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-item-link {
   display: block;
   font-size: 12px;
   font-weight: normal;
   padding: 10px 15px;
 }
-/* line 80, ../sass/eros/_eros-nav.scss */
+/* line 81, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-item-link:hover {
   background: #999999;
 }
-/* line 85, ../sass/eros/_eros-nav.scss */
+/* line 86, ../sass/eros/_eros-nav.scss */
 .eros .js-menu-toggle {
   display: none;
 }
-/* line 88, ../sass/eros/_eros-nav.scss */
+/* line 89, ../sass/eros/_eros-nav.scss */
 .eros .js-menu-toggle.is-open {
   display: block;
 }
