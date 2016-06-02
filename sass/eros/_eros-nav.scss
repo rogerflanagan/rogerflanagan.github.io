@@ -80,14 +80,10 @@
     padding: 10px 15px;
 
     &:hover {
-        background: $color-light-grey;
+        background: $color-z-grey;
     }
 }
 
 .js-menu-toggle {
     display: none;
-
-    &.is-open {
-        display: block;
-    }
 }

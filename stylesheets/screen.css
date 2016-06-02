@@ -527,15 +527,11 @@
 }
 /* line 82, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-item-link:hover {
-  background: #999999;
+  background: #FAFAFA;
 }
 /* line 87, ../sass/eros/_eros-nav.scss */
 .eros .js-menu-toggle {
   display: none;
-}
-/* line 90, ../sass/eros/_eros-nav.scss */
-.eros .js-menu-toggle.is-open {
-  display: block;
 }
 /* line 2, ../sass/eros/_eros-sidebar.scss */
 .eros .eros-sidebar {
