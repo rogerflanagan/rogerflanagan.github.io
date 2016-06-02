@@ -8,6 +8,11 @@ $(document).ready(function() {
 
     // Navigation
     $('.eros-nav__title').click(function() {
-        $('.js-menu-toggle').addClass('is-open');
+        event.stopPropagation();
+        $('.js-menu-toggle').toggle();
+    });
+
+    $(document).click(function() {
+        $('.js-menu-toggle').hide();
     });
 });
