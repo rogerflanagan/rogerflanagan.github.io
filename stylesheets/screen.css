@@ -516,7 +516,7 @@
 .eros .eros-sidebar {
   background: #FAFAFA;
   border-right: 1px solid #D6D6D6;
-  width: 280px;
+  flex: 0 0 280px;
 }
 /* line 8, ../sass/eros/_eros-sidebar.scss */
 .eros .eros-sidebar__logo-block {
