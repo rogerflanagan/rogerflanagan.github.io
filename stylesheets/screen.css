@@ -378,32 +378,33 @@
 .eros .eros-frame {
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
   max-width: 1000px;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
 }
-/* line 10, ../sass/eros/_eros-frame.scss */
+/* line 11, ../sass/eros/_eros-frame.scss */
 .eros .eros-frame__flexbox {
   display: flex;
 }
-/* line 14, ../sass/eros/_eros-frame.scss */
+/* line 15, ../sass/eros/_eros-frame.scss */
 .eros .eros-frame__flexbox--center {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
-/* line 20, ../sass/eros/_eros-frame.scss */
+/* line 21, ../sass/eros/_eros-frame.scss */
 .eros .eros-frame__flexbox--wrap {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
 }
-/* line 26, ../sass/eros/_eros-frame.scss */
+/* line 27, ../sass/eros/_eros-frame.scss */
 .eros .eros-guide-section {
   padding: 20px;
 }
-/* line 29, ../sass/eros/_eros-frame.scss */
+/* line 30, ../sass/eros/_eros-frame.scss */
 .eros .eros-guide-section p,
 .eros .eros-guide-section ol {
   font-size: 16px;

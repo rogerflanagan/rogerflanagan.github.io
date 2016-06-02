@@ -1,6 +1,7 @@
 // Eros - Frame
 .eros-frame {
     @include auto-margin;
+    box-sizing: border-box;
     max-width: 1000px;
     padding-left: 20px;
     padding-right: 20px;
