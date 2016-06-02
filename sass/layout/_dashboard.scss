@@ -1,0 +1,10 @@
+// Dashboard
+
+.dashboard {
+    @media (min-width: $large-viewport) {
+        @include full-viewport;
+        margin: $spacing-x-lg;
+        order: 1;
+        width: $desktop-nav;
+    }
+}

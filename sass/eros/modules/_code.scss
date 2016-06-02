@@ -1,0 +1,119 @@
+// Eros - Modules - Code
+pre {
+    margin: 0;
+}
+
+.code {
+    background: #f8f8f8;
+    border: 1px solid #D4ECF8;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 15px;
+}
+
+// Highlight JS Plugin
+.hljs {
+  display: block;
+  overflow-x: auto;
+  color: #666666;
+}
+
+.hljs-class {
+    color: #666;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst,
+.hljs-at_rule {
+  color: #FF5A59;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #EC9D8B;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute,
+.hljs-rule {
+  color: #666666;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-preprocessor {
+    color: #50C2E4;
+}
+
+.hljs-value {
+    color: #D6B99D;
+}

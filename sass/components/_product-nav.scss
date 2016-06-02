@@ -1,0 +1,23 @@
+// Product List
+.product-nav-list {
+    border-bottom: 1px solid $mist;
+    margin-bottom: $spacing-xx-lg;
+    padding-bottom: $spacing-sml;
+}
+
+.product-nav__item {
+    margin-left: $spacing-xx-lg;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.product-nav__link {
+    font-size: $font-size-lg;
+    font-weight: bold;
+
+    &.accent-selected {
+        color: $lt-red;
+    }
+}

@@ -1,0 +1,12 @@
+// Eros - Main
+.eros-main {
+    flex: 1;
+}
+
+.eros-main__title {
+    background: $color-light-blue;
+    color: $color-white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}

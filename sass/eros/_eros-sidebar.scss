@@ -1,0 +1,16 @@
+// Eros - Sidebar
+.eros-sidebar {
+    background: $color-z-grey;
+    border-right: 1px solid $color-grey;
+    width: 280px;
+}
+
+.eros-sidebar__logo-block {
+    border-bottom: 1px solid $color-grey;
+	height: 180px;
+	position: relative;
+}
+
+.eros-sidebar__logo {
+	@include absolute-center;
+}

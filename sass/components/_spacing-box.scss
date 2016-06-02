@@ -1,0 +1,61 @@
+// Spacing Box
+
+.spacing-container {
+    margin-top: $spacing-x-lg;
+}
+
+.spacing-box {
+    display: inline-block;
+}
+
+.spacing-box__item {
+    border: 1px solid darken($lt-blue, 20%);
+    transition: all .2s;
+
+    &.accent-xx-lg {
+        background: lighten($lt-blue, 10%);
+        padding: $spacing-xx-lg;
+    }
+
+    &.accent-x-lg {
+        background: lighten($lt-blue, 5%);
+        padding: $spacing-x-lg;
+    }
+
+    &.accent-lg {
+        background: $lt-blue;
+        padding: $spacing-lg;
+    }
+
+    &.accent-med {
+        background: darken($lt-blue, 5%);
+        padding: $spacing-med;
+    }
+
+    &.accent-sml {
+        background: darken($lt-blue, 10%);
+        padding: $spacing-sml;
+    }
+
+    &.accent-x-sml {
+        background: darken($lt-blue, 15%);
+        padding: $spacing-x-sml;
+    }
+
+    &.accent-xx-sml {
+        background: darken($lt-blue, 20%);
+        padding: $spacing-xx-sml;
+    }
+
+    &.accent-highlight {
+        background: $lt-red;
+        border: 1px solid $dk-red;
+        transform: scale(2);
+    }
+}
+
+.spacing-el {
+    background: $white;
+    height: 50px;
+    width: 50px;
+}

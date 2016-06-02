@@ -1,0 +1,52 @@
+// Article Heading
+
+// Scoped Variables
+$article-height: 60px;
+
+.article-heading {
+	height: $article-height;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+
+	&:before,
+	&:after {
+		background: $lt-blue;
+		bottom: 0;
+		content: '';
+		height: 4px;
+		margin: auto;
+		opacity: .3;
+		position: absolute;
+		top: 0;
+		width: 35%;
+	}
+
+	&:before {
+		left: 0;
+	}
+
+	&:after {
+		right: 0;
+	}
+}
+
+.toc-heading {
+	color: $slate;
+	font-size: 1.5rem;
+	line-height: $article-height;
+	text-align: center;
+}
+
+.toc-cta {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: scale(.5);
+}

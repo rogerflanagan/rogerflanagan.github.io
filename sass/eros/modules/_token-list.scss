@@ -1,0 +1,163 @@
+// Eros - Modules - Token List
+.token-list {
+    font-family: monospace;
+    max-width: 1000px;
+
+    > * + * {
+        margin-top: $spacing-large;
+    }
+}
+
+.token-list--border-radius {
+    .token-value {
+        &:after {
+            background: $color-z-blue;
+            box-sizing: border-box;
+            content: '';
+            display: inline-block;
+            height: 30px;
+            margin-left: $spacing-small;
+            vertical-align: text-bottom;
+            width: 30px;
+        }
+    }
+}
+
+.token-list--box-shadow {
+    .token-value {
+        &:after {
+            border-radius: $border-radius-small;
+            box-sizing: border-box;
+            content: '';
+            display: inline-block;
+            height: 30px;
+            margin-left: $spacing-small;
+            vertical-align: text-bottom;
+            width: 30px;
+        }
+    }
+}
+
+.token-list--color {
+    .token-value {
+        &:after {
+            border-radius: $border-radius-small;
+            box-sizing: border-box;
+            content: '';
+            display: inline-block;
+            height: 30px;
+            margin-left: $spacing-small;
+            vertical-align: text-bottom;
+            width: 30px;
+        }
+    }
+}
+
+.token-item {
+    display: flex;
+    font-size: $font-size-seven;
+    justify-content: space-between;
+}
+
+.token-value--black:after {
+    background: $color-black;
+}
+
+.token-value--white:after {
+    background: $color-white;
+    border: 1px solid $color-grey;
+}
+
+.token-value--z-blue:after {
+    background: $color-z-blue;
+}
+
+.token-value--z-green:after {
+    background: $color-z-green;
+}
+
+.token-value--z-red:after {
+    background: $color-z-red;
+}
+
+.token-value--z-yellow:after {
+    background: $color-z-yellow;
+}
+
+.token-value--z-orange:after {
+    background: $color-z-orange;
+}
+
+.token-value--z-grey:after {
+    background: $color-z-grey;
+}
+
+.token-value--light-blue:after {
+    background: $color-light-blue;
+}
+
+.token-value--light-yellow:after {
+    background: $color-light-yellow;
+}
+
+.token-value--teal:after {
+    background: $color-teal;
+}
+
+.token-value--purple:after {
+    background: $color-purple;
+}
+
+.token-value--grey:after {
+    background: $color-grey;
+}
+
+.token-value--light-grey:after {
+    background: $color-light-grey;
+}
+
+.token-value--medium-grey:after {
+    background: $color-medium-grey;
+}
+
+.token-value--dark-grey:after {
+    background: $color-dark-grey;
+}
+
+.token-value--br-small:after {
+    border-radius: $border-radius-small;
+}
+
+.token-value--br-medium:after {
+    border-radius: $border-radius-medium;
+}
+
+.token-value--br-large:after {
+    border-radius: $border-radius-large;
+}
+
+.token-value--br-pill:after {
+    border-radius: $border-radius-pill;
+    margin-right: -20px;
+    width: 50px !important;
+}
+
+.token-value--bs-input:after {
+    box-shadow: $box-shadow-input;
+}
+
+.token-value--bs-input-focus:after {
+    box-shadow: $box-shadow-input-focus;
+}
+
+.token-value--bs-input-error:after {
+    box-shadow: $box-shadow-input-error;
+}
+
+.token-value--bs-button-active:after {
+    box-shadow: $box-shadow-button-active;
+}
+
+.token-value--bs-medium:after {
+    box-shadow: $box-shadow-medium;
+}

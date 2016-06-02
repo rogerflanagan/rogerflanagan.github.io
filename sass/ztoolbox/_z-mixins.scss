@@ -1,0 +1,63 @@
+/*****************************************************************************
+    Zoosk Mixins
+
+    Todo: make sound better
+    Common properties grouped together for faster development
+*****************************************************************************/
+
+/*****************************************************************************
+    Positions an element on top of parent element covering entirely.
+*****************************************************************************/
+@mixin zm-pinned($position: absolute, $coord: 0) {
+    bottom: $coord;
+    left: $coord;
+    position: $position;
+    right: $coord;
+    top: $coord;
+}
+
+/*****************************************************************************
+    Positions an element with a right and top offset.
+*****************************************************************************/
+@mixin zm-position-wrap-tr($rightCoord,$topCoord) {
+    position: absolute;
+    right: $rightCoord;
+    top: $topCoord;
+}
+
+/*****************************************************************************
+    Positions an element with a left and top offset.
+*****************************************************************************/
+@mixin zm-position-wrap-tl($leftCoord,$topCoord) {
+    left: $leftCoord;
+    position: absolute;
+    top: $topCoord;
+}
+
+/*****************************************************************************
+    Adds left/right auto margins to element.
+*****************************************************************************/
+@mixin zm-margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*****************************************************************************
+    Side-by-side layout of elements.
+*****************************************************************************/
+@mixin zm-inline-block-serial($width, $v-align) {
+    display: inline-block;
+    vertical-align: $v-align;
+    width: $width;
+}
+
+/***********************************************************
+    Shadowed Box
+
+    Typically a parent container
+***********************************************************/
+@mixin shadowed-box($box-shadow, $bg-color, $padding) {
+    @include box-shadow($box-shadow);
+    background: $bg-color;
+    padding: $padding;
+}

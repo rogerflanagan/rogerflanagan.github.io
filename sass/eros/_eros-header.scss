@@ -1,0 +1,13 @@
+// Eros - Header
+.eros-header {
+    padding-bottom: $spacing-x-large;
+    padding-top: $spacing-x-large;
+}
+
+.eros-header__title {
+    font-size: $font-size-seven;
+}
+
+.eros-header__search {
+    max-width: 400px;
+}

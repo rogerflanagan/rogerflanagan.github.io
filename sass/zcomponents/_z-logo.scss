@@ -1,0 +1,79 @@
+/*****************************************************************************
+
+    Zoosk Logo (SVG)
+
+*****************************************************************************/
+
+// Variables
+
+$z-lt-red: HSLA(358, 88%, 58%, 1);
+$z-dk-red: HSLA(357, 67%, 41%, 1);
+
+/*************************************************/
+
+// Logo
+
+.logo-letter {
+    fill: $color-white;
+}
+
+.logo-letter-alt {
+    fill: $color-light-blue;
+}
+
+.logo-heart-left {
+    fill: $z-lt-red;
+}
+
+.logo-heart-right {
+    fill: $z-dk-red;
+}
+
+/*************************************************/
+
+// Animation Hook
+
+.zs-scale-down-up {
+    path.logo-letter {
+        -webkit-transform-origin: center;
+
+        -webkit-animation: scale-down-up 1s forwards;
+        -moz-animation: scale-down-up 1s forwards;
+        -o-animation: scale-down-up 1s forwards;
+        animation: scale-down-up 1s forwards;
+    }
+}
+
+/*************************************************/
+
+// Keyframes
+
+// Optimized
+@-webkit-keyframes scale-down-up {
+    0% {
+        -webkit-transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.001);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+// Fallback
+@-moz-keyframes scale-down-up {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

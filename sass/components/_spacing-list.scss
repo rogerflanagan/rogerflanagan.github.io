@@ -1,0 +1,11 @@
+// Spacing List
+
+.spacing-list {
+    border-bottom: 1px solid $mist;
+    margin-bottom: $spacing-xx-lg;
+    padding-bottom: $spacing-lg;
+}
+
+.spacing-list__item {
+    flex: auto;
+}

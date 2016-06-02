@@ -1,0 +1,1079 @@
+/* line 1, ../sass/screen.scss */
+.eros {
+  /*****************************************************************************
+  
+      Zoosk Logo (SVG)
+  
+  *****************************************************************************/
+  /*************************************************/
+  /*************************************************/
+  /*************************************************/
+  /*******ZOOSK TOOLBOX*********/
+  /*****************************************************************************
+      Zoosk Mixins
+  
+      Todo: make sound better
+      Common properties grouped together for faster development
+  *****************************************************************************/
+  /*****************************************************************************
+      Positions an element on top of parent element covering entirely.
+  *****************************************************************************/
+  /*****************************************************************************
+      Positions an element with a right and top offset.
+  *****************************************************************************/
+  /*****************************************************************************
+      Positions an element with a left and top offset.
+  *****************************************************************************/
+  /*****************************************************************************
+      Adds left/right auto margins to element.
+  *****************************************************************************/
+  /*****************************************************************************
+      Side-by-side layout of elements.
+  *****************************************************************************/
+  /***********************************************************
+      Shadowed Box
+  
+      Typically a parent container
+  ***********************************************************/
+  /*****************************************************************************
+      Zoosk Utilities
+  
+      Todo: make sound better
+      Similar to a JS 'class', an independent ruleset capable of building
+      functionality
+  
+      Apply class directly to HTML element, DO NOT @EXTEND
+  *****************************************************************************/
+  /*****************************************************************************
+      Truncates text.
+  *****************************************************************************/
+  /*****************************************************************************
+      Clear floats.
+  *****************************************************************************/
+  /*****************************************************************************
+      Increases tap target to the Apple HIG Standards.
+  
+      https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html
+      "Make it easy for people to interact with content and controls by giving
+      each interactive element ample spacing. Give tappable controls a hit target
+      of about 44 x 44 points."
+  *****************************************************************************/
+  /*****************************************************************************
+      Forces child element to be the same width as the parent.
+  *****************************************************************************/
+  /*****************************************************************************
+      Makes an element's width respond to the parent container.
+  *****************************************************************************/
+  /*****************************************************************************
+      Displays an element on top of parent.
+  *****************************************************************************/
+  /*****************************************************************************
+      Positions an element in the center of parent.
+  *****************************************************************************/
+  /*****************************************************************************
+      Positions an element horizontally centered inside of parent.
+  *****************************************************************************/
+  /*****************************************************************************
+      Positions an element vertically centered inside of parent.
+  *****************************************************************************/
+  /*****************************************************************************
+      Wraps long hyperlinks/text to prevent layout issues.
+  *****************************************************************************/
+  /*****************************************************************************
+      Zoosk Interactions
+  
+      Todo: make sound better
+      Common modifier classes for state changes
+  *****************************************************************************/
+  /*****************************************************************************
+      Toggles the visibility of an element.
+  *****************************************************************************/
+}
+/* line 85, ../sass/_mixins.scss */
+.eros .flex-img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+/* line 2, ../sass/zbase/_helpers.scss */
+.eros .h-text-align-center {
+  text-align: center;
+}
+/* line 3, ../sass/zbase/_helpers.scss */
+.eros .h-text-align-left {
+  text-align: left;
+}
+/* line 4, ../sass/zbase/_helpers.scss */
+.eros .h-max-flex-el {
+  max-width: 100%;
+}
+/* line 5, ../sass/zbase/_helpers.scss */
+.eros .h-flex-el {
+  width: 100%;
+}
+/* line 6, ../sass/zbase/_helpers.scss */
+.eros .h-inline-block {
+  display: inline-block;
+}
+/* line 2, ../sass/zbase/_typography.scss */
+.eros .h1 {
+  color: #333333;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* line 8, ../sass/zbase/_typography.scss */
+.eros .h2 {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 14, ../sass/zbase/_typography.scss */
+.eros .h3 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 20, ../sass/zbase/_typography.scss */
+.eros .h4 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 26, ../sass/zbase/_typography.scss */
+.eros .h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 32, ../sass/zbase/_typography.scss */
+.eros .h6 {
+  color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 38, ../sass/zbase/_typography.scss */
+.eros a {
+  text-decoration: none;
+  transition: all .2s;
+}
+/* line 43, ../sass/zbase/_typography.scss */
+.eros hr {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #D6D6D6;
+  margin: 24px 0 24px;
+  text-align: left;
+  width: 150px;
+}
+/* line 3, ../sass/zbase/form/_form-layout.scss */
+.eros .z-form > * + * {
+  margin-top: 15px;
+}
+/* line 8, ../sass/zbase/form/_form-layout.scss */
+.eros .z-input-wrap {
+  position: relative;
+}
+/* line 12, ../sass/zbase/form/_form-layout.scss */
+.eros .z-form-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  right: 12px;
+}
+/* line 18, ../sass/zbase/form/_form-layout.scss */
+.eros .z-form-icon--error {
+  fill: #E30000;
+}
+/* line 22, ../sass/zbase/form/_form-layout.scss */
+.eros .z-form-error {
+  color: #E30000;
+  display: block;
+  margin-top: 8px;
+}
+/* line 28, ../sass/zbase/form/_form-layout.scss */
+.eros .z-form-help {
+  color: #53C1EA;
+  cursor: pointer;
+  display: block;
+  margin-top: 8px;
+}
+/* line 2, ../sass/zbase/form/_form-labels.scss */
+.eros .z-label {
+  color: #333333;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+/* line 32, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-input {
+  border-radius: 3px;
+  border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+}
+/* line 15, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-input:focus {
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+  border-color: #53C1EA;
+}
+/* line 20, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-input:focus, .eros .z-input:required {
+  outline: none;
+}
+/* line 26, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-input.accent-error {
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+  border-color: #E30000;
+}
+/* line 36, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-textarea {
+  border-radius: 3px;
+  border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+}
+/* line 15, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-textarea:focus {
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+  border-color: #53C1EA;
+}
+/* line 20, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-textarea:focus, .eros .z-textarea:required {
+  outline: none;
+}
+/* line 26, ../sass/zbase/form/_form-inputs.scss */
+.eros .z-textarea.accent-error {
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+  border-color: #E30000;
+}
+/* line 43, ../sass/zbase/form/_form-inputs.scss */
+.eros ::-webkit-input-placeholder {
+  color: #999999;
+}
+/* line 44, ../sass/zbase/form/_form-inputs.scss */
+.eros ::-moz-placeholder {
+  color: #999999;
+}
+/* line 45, ../sass/zbase/form/_form-inputs.scss */
+.eros :-ms-input-placeholder {
+  color: #999999;
+}
+/* line 48, ../sass/zbase/form/_form-inputs.scss */
+.eros :-webkit-autofill {
+  background: #53C1EA;
+}
+/* line 2, ../sass/zbase/form/_form-select.scss */
+.eros .z-select {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+/* line 9, ../sass/zbase/form/_form-select.scss */
+.eros .z-select-item {
+  background: #FFFFFF;
+  /* IE fallback */
+  background-image: linear-gradient(#ffffff, #fafafa);
+  background-image: linear-gradient(#ffffff, #fafafa);
+  background-image: linear-gradient(#ffffff, #fafafa);
+  background-image: linear-gradient(#ffffff, #fafafa);
+  background-image: linear-gradient(#ffffff, #fafafa);
+  border-radius: 6px;
+  border-radius: 6px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #D6D6D6;
+  padding: 8px;
+}
+/* line 18, ../sass/zbase/form/_form-select.scss */
+.eros .z-option {
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #D6D6D6;
+}
+/* line 16, ../sass/zcomponents/_z-logo.scss */
+.eros .logo-letter {
+  fill: #FFFFFF;
+}
+/* line 20, ../sass/zcomponents/_z-logo.scss */
+.eros .logo-letter-alt {
+  fill: #53C1EA;
+}
+/* line 24, ../sass/zcomponents/_z-logo.scss */
+.eros .logo-heart-left {
+  fill: HSLA(358, 88%, 58%, 1);
+}
+/* line 28, ../sass/zcomponents/_z-logo.scss */
+.eros .logo-heart-right {
+  fill: HSLA(357, 67%, 41%, 1);
+}
+/* line 37, ../sass/zcomponents/_z-logo.scss */
+.eros .zs-scale-down-up path.logo-letter {
+  -webkit-transform-origin: center;
+  -webkit-animation: scale-down-up 1s forwards;
+  -moz-animation: scale-down-up 1s forwards;
+  -o-animation: scale-down-up 1s forwards;
+  animation: scale-down-up 1s forwards;
+}
+@-webkit-keyframes scale-down-up {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.001);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes scale-down-up {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* line 2, ../sass/eros/_eros-frame.scss */
+.eros .eros-frame {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1000px;
+}
+/* line 10, ../sass/eros/_eros-frame.scss */
+.eros .eros-frame__flexbox {
+  display: flex;
+}
+/* line 14, ../sass/eros/_eros-frame.scss */
+.eros .eros-frame__flexbox--center {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 20, ../sass/eros/_eros-frame.scss */
+.eros .eros-frame__flexbox--wrap {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 26, ../sass/eros/_eros-frame.scss */
+.eros .eros-guide-section {
+  padding: 20px;
+}
+/* line 29, ../sass/eros/_eros-frame.scss */
+.eros .eros-guide-section p,
+.eros .eros-guide-section ol {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* line 2, ../sass/eros/_eros-header.scss */
+.eros .eros-header {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+/* line 7, ../sass/eros/_eros-header.scss */
+.eros .eros-header__title {
+  font-size: 20px;
+}
+/* line 11, ../sass/eros/_eros-header.scss */
+.eros .eros-header__search {
+  max-width: 400px;
+}
+/* line 2, ../sass/eros/_eros-main.scss */
+.eros .eros-main {
+  flex: 1;
+}
+/* line 6, ../sass/eros/_eros-main.scss */
+.eros .eros-main__title {
+  background: #53C1EA;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+}
+/* line 2, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__item {
+  border-bottom: 1px solid #D6D6D6;
+  position: relative;
+}
+/* line 7, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__title {
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: bold;
+  position: relative;
+}
+/* line 13, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__title-link {
+  background: #FFFFFF;
+}
+/* line 17, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-indicator {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+/* line 21, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-indicator > * {
+  display: block;
+}
+/* line 24, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__link {
+  display: block;
+  padding: 15px;
+}
+/* line 28, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__link:hover {
+  background: #FFFFFF;
+}
+/* line 33, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__link-active:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #53C1EA;
+  border-radius: 50%;
+  content: '';
+  height: 10px;
+  right: 15px;
+  width: 10px;
+}
+/* line 43, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown {
+  background: #FFFFFF;
+  border: 1px solid #D4ECF8;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 1px rgba(102, 102, 102, 0.15);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+}
+/* line 55, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-item-link {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 10px 15px;
+}
+/* line 61, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-item-link:hover {
+  background: #999999;
+}
+/* line 66, ../sass/eros/_eros-nav.scss */
+.eros .js-menu-toggle {
+  display: none;
+}
+/* line 69, ../sass/eros/_eros-nav.scss */
+.eros .js-menu-toggle.is-open {
+  display: block;
+}
+/* line 2, ../sass/eros/_eros-sidebar.scss */
+.eros .eros-sidebar {
+  background: #FAFAFA;
+  border-right: 1px solid #D6D6D6;
+  width: 280px;
+}
+/* line 8, ../sass/eros/_eros-sidebar.scss */
+.eros .eros-sidebar__logo-block {
+  border-bottom: 1px solid #D6D6D6;
+  height: 180px;
+  position: relative;
+}
+/* line 14, ../sass/eros/_eros-sidebar.scss */
+.eros .eros-sidebar__logo {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 2, ../sass/eros/modules/_code.scss */
+.eros pre {
+  margin: 0;
+}
+/* line 6, ../sass/eros/modules/_code.scss */
+.eros .code {
+  background: #f8f8f8;
+  border: 1px solid #D4ECF8;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 15px;
+}
+/* line 16, ../sass/eros/modules/_code.scss */
+.eros .hljs {
+  display: block;
+  overflow-x: auto;
+  color: #666666;
+}
+/* line 22, ../sass/eros/modules/_code.scss */
+.eros .hljs-class {
+  color: #666;
+}
+/* line 26, ../sass/eros/modules/_code.scss */
+.eros .hljs-comment,
+.eros .hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+/* line 32, ../sass/eros/modules/_code.scss */
+.eros .hljs-keyword,
+.eros .hljs-selector-tag,
+.eros .hljs-subst,
+.eros .hljs-at_rule {
+  color: #FF5A59;
+}
+/* line 39, ../sass/eros/modules/_code.scss */
+.eros .hljs-number,
+.eros .hljs-literal,
+.eros .hljs-variable,
+.eros .hljs-template-variable,
+.eros .hljs-tag .hljs-attr {
+  color: #EC9D8B;
+}
+/* line 47, ../sass/eros/modules/_code.scss */
+.eros .hljs-string,
+.eros .hljs-doctag {
+  color: #d14;
+}
+/* line 52, ../sass/eros/modules/_code.scss */
+.eros .hljs-title,
+.eros .hljs-section,
+.eros .hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+/* line 59, ../sass/eros/modules/_code.scss */
+.eros .hljs-subst {
+  font-weight: normal;
+}
+/* line 63, ../sass/eros/modules/_code.scss */
+.eros .hljs-type,
+.eros .hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+/* line 69, ../sass/eros/modules/_code.scss */
+.eros .hljs-tag,
+.eros .hljs-name,
+.eros .hljs-attribute,
+.eros .hljs-rule {
+  color: #666666;
+  font-weight: normal;
+}
+/* line 77, ../sass/eros/modules/_code.scss */
+.eros .hljs-regexp,
+.eros .hljs-link {
+  color: #009926;
+}
+/* line 82, ../sass/eros/modules/_code.scss */
+.eros .hljs-symbol,
+.eros .hljs-bullet {
+  color: #990073;
+}
+/* line 87, ../sass/eros/modules/_code.scss */
+.eros .hljs-built_in,
+.eros .hljs-builtin-name {
+  color: #0086b3;
+}
+/* line 92, ../sass/eros/modules/_code.scss */
+.eros .hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+/* line 97, ../sass/eros/modules/_code.scss */
+.eros .hljs-deletion {
+  background: #fdd;
+}
+/* line 101, ../sass/eros/modules/_code.scss */
+.eros .hljs-addition {
+  background: #dfd;
+}
+/* line 105, ../sass/eros/modules/_code.scss */
+.eros .hljs-emphasis {
+  font-style: italic;
+}
+/* line 109, ../sass/eros/modules/_code.scss */
+.eros .hljs-strong {
+  font-weight: bold;
+}
+/* line 113, ../sass/eros/modules/_code.scss */
+.eros .hljs-preprocessor {
+  color: #50C2E4;
+}
+/* line 117, ../sass/eros/modules/_code.scss */
+.eros .hljs-value {
+  color: #D6B99D;
+}
+/* line 2, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-swatch-list {
+  margin-left: -10px;
+  max-width: 1000px;
+}
+/* line 7, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-swatch {
+  border: 1px solid #D6D6D6;
+  border-radius: 3px;
+  margin: 12px;
+  max-width: 200px;
+  width: 20%;
+}
+/* line 15, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip {
+  height: 40px;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+/* line 21, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--z-blue {
+  background: #1379D3;
+}
+/* line 25, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--z-green {
+  background: #27BC00;
+}
+/* line 29, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--z-red {
+  background: #E30000;
+}
+/* line 33, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--z-yellow {
+  background: #FFC500;
+}
+/* line 37, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--z-orange {
+  background: #FF9E00;
+}
+/* line 41, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--z-grey {
+  background: #FAFAFA;
+}
+/* line 45, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--light-blue {
+  background: #53C1EA;
+}
+/* line 49, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--light-yellow {
+  background: #FFF900;
+}
+/* line 53, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--teal {
+  background: #ACFEE4;
+}
+/* line 57, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--purple {
+  background: #8F6594;
+}
+/* line 61, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--grey {
+  background: #D6D6D6;
+}
+/* line 65, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--light-grey {
+  background: #999999;
+}
+/* line 69, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--medium-grey {
+  background: #666666;
+}
+/* line 73, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-strip--dark-grey {
+  background: #333333;
+}
+/* line 78, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-title {
+  font-weight: bold;
+}
+/* line 82, ../sass/eros/modules/_color-swatch.scss */
+.eros .color-vitals-item {
+  padding: 8px 16px;
+}
+/* line 2, ../sass/eros/modules/_eros-example.scss */
+.eros .eros-example {
+  border-bottom: 1px dashed #cdcdcd;
+  padding: 20px;
+}
+/* line 7, ../sass/eros/modules/_eros-example.scss */
+.eros .eros-example__header {
+  margin-bottom: 22px;
+}
+/* line 11, ../sass/eros/modules/_eros-example.scss */
+.eros .eros-example__title {
+  font-size: 24px;
+}
+/* line 15, ../sass/eros/modules/_eros-example.scss */
+.eros .eros-example-vitals {
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+/* line 20, ../sass/eros/modules/_eros-example.scss */
+.eros .eros-example-vitals > * + * {
+  margin-top: 10px;
+}
+/* line 25, ../sass/eros/modules/_eros-example.scss */
+.eros .eros-example-vitals--param {
+  background: #ACFEE4;
+  border-radius: 240px;
+  color: #222222;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+}
+/* line 34, ../sass/eros/modules/_eros-example.scss */
+.eros .sub-header {
+  margin-bottom: 12px;
+}
+/* line 38, ../sass/eros/modules/_eros-example.scss */
+.eros .sub-header__title {
+  color: #FF5A59;
+  font-size: 14px;
+}
+/* line 44, ../sass/eros/modules/_eros-example.scss */
+.eros .code-container > * + * {
+  margin-top: 20px;
+}
+/* line 49, ../sass/eros/modules/_eros-example.scss */
+.eros .section-header {
+  background: #FF5A59;
+  border-radius: 20px;
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+/* line 60, ../sass/eros/modules/_eros-example.scss */
+.eros .section-header__title {
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 2, ../sass/eros/modules/_icon-block.scss */
+.eros .icon-block-list {
+  max-width: 1000px;
+}
+/* line 6, ../sass/eros/modules/_icon-block.scss */
+.eros .icon-block-item {
+  border: 1px solid #D6D6D6;
+  border-radius: 3px;
+  margin: 12px;
+  max-width: 200px;
+  width: 20%;
+}
+/* line 14, ../sass/eros/modules/_icon-block.scss */
+.eros .icon-block__icon {
+  border-bottom: 1px solid #D6D6D6;
+  display: block;
+  height: 80px;
+  position: relative;
+}
+/* line 20, ../sass/eros/modules/_icon-block.scss */
+.eros .icon-block__icon:before {
+  color: #333333;
+  font-size: 50px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 30, ../sass/eros/modules/_icon-block.scss */
+.eros .icon-block__id {
+  display: block;
+  padding: 16px;
+  text-align: center;
+}
+/* line 3, ../sass/eros/modules/_logo-block.scss */
+.eros .logo-block > * {
+  border-radius: 3px;
+  padding: 30px;
+  text-align: center;
+}
+/* line 9, ../sass/eros/modules/_logo-block.scss */
+.eros .logo-block > * + * {
+  margin-top: 24px;
+}
+/* line 14, ../sass/eros/modules/_logo-block.scss */
+.eros .logo-one {
+  background: #53C1EA;
+}
+/* line 18, ../sass/eros/modules/_logo-block.scss */
+.eros .logo-two {
+  background: #FAFAFA;
+}
+/* line 2, ../sass/eros/modules/_token-list.scss */
+.eros .token-list {
+  font-family: monospace;
+  max-width: 1000px;
+}
+/* line 6, ../sass/eros/modules/_token-list.scss */
+.eros .token-list > * + * {
+  margin-top: 20px;
+}
+/* line 13, ../sass/eros/modules/_token-list.scss */
+.eros .token-list--border-radius .token-value:after {
+  background: #1379D3;
+  box-sizing: border-box;
+  content: '';
+  display: inline-block;
+  height: 30px;
+  margin-left: 12px;
+  vertical-align: text-bottom;
+  width: 30px;
+}
+/* line 28, ../sass/eros/modules/_token-list.scss */
+.eros .token-list--box-shadow .token-value:after {
+  border-radius: 3px;
+  box-sizing: border-box;
+  content: '';
+  display: inline-block;
+  height: 30px;
+  margin-left: 12px;
+  vertical-align: text-bottom;
+  width: 30px;
+}
+/* line 43, ../sass/eros/modules/_token-list.scss */
+.eros .token-list--color .token-value:after {
+  border-radius: 3px;
+  box-sizing: border-box;
+  content: '';
+  display: inline-block;
+  height: 30px;
+  margin-left: 12px;
+  vertical-align: text-bottom;
+  width: 30px;
+}
+/* line 56, ../sass/eros/modules/_token-list.scss */
+.eros .token-item {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+/* line 62, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--black:after {
+  background: #222222;
+}
+/* line 66, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--white:after {
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+}
+/* line 71, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--z-blue:after {
+  background: #1379D3;
+}
+/* line 75, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--z-green:after {
+  background: #27BC00;
+}
+/* line 79, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--z-red:after {
+  background: #E30000;
+}
+/* line 83, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--z-yellow:after {
+  background: #FFC500;
+}
+/* line 87, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--z-orange:after {
+  background: #FF9E00;
+}
+/* line 91, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--z-grey:after {
+  background: #FAFAFA;
+}
+/* line 95, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--light-blue:after {
+  background: #53C1EA;
+}
+/* line 99, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--light-yellow:after {
+  background: #FFF900;
+}
+/* line 103, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--teal:after {
+  background: #ACFEE4;
+}
+/* line 107, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--purple:after {
+  background: #8F6594;
+}
+/* line 111, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--grey:after {
+  background: #D6D6D6;
+}
+/* line 115, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--light-grey:after {
+  background: #999999;
+}
+/* line 119, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--medium-grey:after {
+  background: #666666;
+}
+/* line 123, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--dark-grey:after {
+  background: #333333;
+}
+/* line 127, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--br-small:after {
+  border-radius: 3px;
+}
+/* line 131, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--br-medium:after {
+  border-radius: 6px;
+}
+/* line 135, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--br-large:after {
+  border-radius: 9px;
+}
+/* line 139, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--br-pill:after {
+  border-radius: 240px;
+  margin-right: -20px;
+  width: 50px !important;
+}
+/* line 145, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--bs-input:after {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+/* line 149, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--bs-input-focus:after {
+  box-shadow: 0 0 5px 1px rgba(76, 159, 235, 0.5);
+}
+/* line 153, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--bs-input-error:after {
+  box-shadow: 0 0 5px rgba(255, 4, 0, 0.3);
+}
+/* line 157, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--bs-button-active:after {
+  box-shadow: inset 0 0 8px rgba(34, 34, 34, 0.75);
+}
+/* line 161, ../sass/eros/modules/_token-list.scss */
+.eros .token-value--bs-medium:after {
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+}
+/* line 14, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+/* line 25, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-clearfix:before,
+.eros .zu-clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 31, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-clearfix:after {
+  clear: both;
+}
+/* line 43, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-tap-target:after {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  height: 44px;
+  width: 44px;
+}
+/* line 53, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-full-block {
+  display: block;
+  width: 100%;
+}
+/* line 61, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-flex-el {
+  display: block;
+  max-width: 100%;
+}
+/* line 69, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-absolute-pin {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 76, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-absolute-center {
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+/* line 86, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-absolute-x-center {
+  transform: translateX(-50%);
+  transform: translateX(-50%);
+  transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: absolute;
+  top: 50%;
+}
+/* line 95, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-absolute-y-center {
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  position: absolute;
+}
+/* line 104, ../sass/ztoolbox/_z-utilities.scss */
+.eros .zu-word-wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+}

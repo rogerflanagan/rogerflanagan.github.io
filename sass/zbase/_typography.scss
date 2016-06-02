@@ -1,0 +1,51 @@
+// Typography
+.h1 {
+	color: $color-dark-grey;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.h2 {
+	color: $color-dark-grey;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.h3 {
+	color: $color-dark-grey;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.h4 {
+	color: $color-dark-grey;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.h5 {
+	color: $color-dark-grey;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.h6 {
+	color: $color-dark-grey;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	transition: all .2s;
+}
+
+hr {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-top: $border-width-thin solid $color-grey;
+	margin: $spacing-x-large 0 $spacing-x-large;
+	text-align: left;
+	width: 150px;
+}

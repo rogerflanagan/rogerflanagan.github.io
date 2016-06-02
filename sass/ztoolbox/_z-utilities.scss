@@ -1,0 +1,109 @@
+/*****************************************************************************
+    Zoosk Utilities
+
+    Todo: make sound better
+    Similar to a JS 'class', an independent ruleset capable of building
+    functionality
+
+    Apply class directly to HTML element, DO NOT @EXTEND
+*****************************************************************************/
+
+/*****************************************************************************
+    Truncates text.
+*****************************************************************************/
+.zu-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal; // IE9 fix to prevent words from breaking to the next line
+}
+
+/*****************************************************************************
+    Clear floats.
+*****************************************************************************/
+.zu-clearfix:before,
+.zu-clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.zu-clearfix:after {
+    clear: both;
+}
+
+/*****************************************************************************
+    Increases tap target to the Apple HIG Standards.
+
+    https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html
+    "Make it easy for people to interact with content and controls by giving
+    each interactive element ample spacing. Give tappable controls a hit target
+    of about 44 x 44 points."
+*****************************************************************************/
+.zu-tap-target:after {
+    @include absolute-center;
+    content: '';
+    height: 44px;
+    width: 44px;
+}
+
+/*****************************************************************************
+    Forces child element to be the same width as the parent.
+*****************************************************************************/
+.zu-full-block {
+    display: block;
+    width: 100%;
+}
+
+/*****************************************************************************
+    Makes an element's width respond to the parent container.
+*****************************************************************************/
+.zu-flex-el {
+    display: block;
+    max-width: 100%;
+}
+
+/*****************************************************************************
+    Displays an element on top of parent.
+*****************************************************************************/
+.zu-absolute-pin {
+    @include zm-pinned;
+}
+
+/*****************************************************************************
+    Positions an element in the center of parent.
+*****************************************************************************/
+.zu-absolute-center {
+    @include transform(translate(-50%, -50%));
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+/*****************************************************************************
+    Positions an element horizontally centered inside of parent.
+*****************************************************************************/
+.zu-absolute-x-center {
+    @include transform(translateX(-50%));
+    position: absolute;
+    top: 50%;
+}
+
+/*****************************************************************************
+    Positions an element vertically centered inside of parent.
+*****************************************************************************/
+.zu-absolute-y-center {
+    @include transform(translateY(-50%));
+    left: 50%;
+    position: absolute;
+}
+
+/*****************************************************************************
+    Wraps long hyperlinks/text to prevent layout issues.
+*****************************************************************************/
+.zu-word-wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+}

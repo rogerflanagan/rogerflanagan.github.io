@@ -1,0 +1,84 @@
+// Color Swatch
+.color-swatch-list {
+    margin-left: -10px;
+    max-width: 1000px;
+}
+
+.color-swatch {
+    border: 1px solid $color-grey;
+    border-radius: $border-radius-small;
+    margin: $spacing-small;
+    max-width: 200px;
+    width: 20%;
+}
+
+.color-strip {
+    height: 40px;
+    margin-bottom: $spacing-small;
+    margin-top: $spacing-medium;
+}
+
+.color-strip--z-blue {
+    background: $color-z-blue;
+}
+
+.color-strip--z-green {
+    background: $color-z-green;
+}
+
+.color-strip--z-red {
+    background: $color-z-red;
+}
+
+.color-strip--z-yellow {
+    background: $color-z-yellow;
+}
+
+.color-strip--z-orange {
+    background: $color-z-orange;
+}
+
+.color-strip--z-grey {
+    background: $color-z-grey;
+}
+
+.color-strip--light-blue {
+    background: $color-light-blue;
+}
+
+.color-strip--light-yellow {
+    background: $color-light-yellow;
+}
+
+.color-strip--teal {
+    background: $color-teal;
+}
+
+.color-strip--purple {
+    background: $color-purple;
+}
+
+.color-strip--grey {
+    background: $color-grey;
+}
+
+.color-strip--light-grey {
+    background: $color-light-grey;
+}
+
+.color-strip--medium-grey {
+    background: $color-medium-grey;
+}
+
+.color-strip--dark-grey {
+    background: $color-dark-grey;
+}
+
+
+.color-title {
+    font-weight: bold;
+}
+
+.color-vitals-item {
+    padding: $spacing-x-small $spacing-medium;
+}

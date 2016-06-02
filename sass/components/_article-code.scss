@@ -1,0 +1,20 @@
+// Article Code
+
+// Scoped Variables
+$selector: #5BC4BA;
+$default: #839496;
+
+.article-code {
+	@include container;
+	font-size: 1.6rem;
+}
+
+.code-col {
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+	
+	p {
+		color: $lt-red;
+		margin-bottom: 2rem;
+	}
+}

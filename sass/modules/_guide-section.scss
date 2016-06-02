@@ -1,0 +1,27 @@
+// Guide Section
+
+.guide-section {
+    > * + * {
+        margin-top: 20px;
+    }
+}
+
+.guide-section-header {
+    > * + * {
+        margin-top: 15px;
+    }
+}
+
+.guide-section-header-divider {
+    position: relative;
+    width: 60px;
+}
+
+.guide-section-cta {
+    @include absolute-center;
+}
+
+.guide-section-title {
+    font-size: 24px;
+    font-weight: bold;
+}
