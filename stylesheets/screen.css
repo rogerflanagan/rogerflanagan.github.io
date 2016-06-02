@@ -456,21 +456,43 @@
   top: 50%;
   transform: translateY(-50%);
   right: 15px;
+  width: 10px;
 }
-/* line 21, ../sass/eros/_eros-nav.scss */
-.eros .eros-nav__dropdown-indicator > * {
-  display: block;
+/* line 22, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-indicator:before, .eros .eros-nav__dropdown-indicator:after {
+  border-top: 1px solid #D6D6D6;
+  border-right: 1px solid #D6D6D6;
+  content: '';
+  height: 10px;
+  position: absolute;
+  width: 10px;
 }
-/* line 24, ../sass/eros/_eros-nav.scss */
+/* line 32, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-indicator:before {
+  transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 0;
+}
+/* line 37, ../sass/eros/_eros-nav.scss */
+.eros .eros-nav__dropdown-indicator:after {
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+  bottom: 0;
+}
+/* line 43, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__link {
   display: block;
   padding: 15px;
 }
-/* line 28, ../sass/eros/_eros-nav.scss */
+/* line 47, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__link:hover {
   background: #FFFFFF;
 }
-/* line 33, ../sass/eros/_eros-nav.scss */
+/* line 52, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__link-active:before {
   position: absolute;
   top: 50%;
@@ -482,7 +504,7 @@
   right: 15px;
   width: 10px;
 }
-/* line 43, ../sass/eros/_eros-nav.scss */
+/* line 62, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown {
   background: #FFFFFF;
   border: 1px solid #D4ECF8;
@@ -494,22 +516,22 @@
   top: 100%;
   z-index: 1;
 }
-/* line 55, ../sass/eros/_eros-nav.scss */
+/* line 74, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-item-link {
   display: block;
   font-size: 12px;
   font-weight: normal;
   padding: 10px 15px;
 }
-/* line 61, ../sass/eros/_eros-nav.scss */
+/* line 80, ../sass/eros/_eros-nav.scss */
 .eros .eros-nav__dropdown-item-link:hover {
   background: #999999;
 }
-/* line 66, ../sass/eros/_eros-nav.scss */
+/* line 85, ../sass/eros/_eros-nav.scss */
 .eros .js-menu-toggle {
   display: none;
 }
-/* line 69, ../sass/eros/_eros-nav.scss */
+/* line 88, ../sass/eros/_eros-nav.scss */
 .eros .js-menu-toggle.is-open {
   display: block;
 }
