@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="no-js eros">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EROS | Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <link rel="icon" type="image/png" href="data:image/png;base64, AAABAAMAEBAAAAEACABoBQAANgAAABgYAAABAAgAyAYAAJ4FAAAgIAAAAQAIAKgIAABmDAAAKAAA&#10;ABAAAAAgAAAAAQAIAAAAAAAAAQAAEQsAABELAAAAAQAAAAEAAF9N2QBPNpwAaVbPAGdLkQBbQZcA&#10;vp1/AHNWjADRrGIAxaFnALmWbABEK6EAyKZ1AFRE4wDTr2sAdF/FAH5ouwDctlwA3bhhACwWrAA/&#10;MvcA6MFXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFBQUFBQUFBQUFBQUFBQUFBQUFBQU&#10;FBQUFBQUFBQUFBQUFBQUFBQREBQUFBQUFBQUFBQUFBQRAAEQFBQUFBQUFBQUFBQRABMSARAUFBQU&#10;FBQUFBQRABMTEhIBEBQUFBQUFBQRABMTExISEgEQFBQUFBQUAhMTExMSEhISAxQUFBQUCxMTExMT&#10;EhISEhIIFBQUFAUTExMTExISEhISCRQUFBQUDBMTEwIEEhISChQUFBQUFA0OAg8REAYEAwcUFBQU&#10;FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU&#10;FBQUFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAACgAAAAYAAAAMAAAAAEACAAAAAAAQAIAABELAAARCwAAAAEAAAABAABKO+0A&#10;xaFnAMimdQA4IacARCuhAN24YQDctlwAaVbPAFtBlwC+nX8AimyCAF9N2QCtjHIAlHqnAH5ouwBP&#10;NpwAiXGxAHNWjAB0X8UAuZZsAFRE4wBnS5EALBasAD8y9wDowVcAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBgYGBgY&#10;GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY&#10;GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgCARgYGBgYGBgYGBgY&#10;GBgYGBgYGBgYGAIAAwEYGBgYGBgYGBgYGBgYGBgYGBgYAgAXFgMBGBgYGBgYGBgYGBgYGBgYGBgC&#10;ABcXFhYDARgYGBgYGBgYGBgYGBgYGAIAFxcXFhYWAwEYGBgYGBgYGBgYGBgYAgAXFxcXFhYWFgMB&#10;GBgYGBgYGBgYGBgCABcXFxcXFhYWFhYDARgYGBgYGBgYGAUAFxcXFxcXFhYWFhYWBAYYGBgYGBgY&#10;GBAXFxcXFxcXFhYWFhYWFgoYGBgYGBgYGAcXFxcXFxcXFhYWFhYWFggYGBgYGBgYGAcXFxcXFxcX&#10;FhYWFhYWFggYGBgYGBgYGA0XFxcXFxcUBBYWFhYWFgoYGBgYGBgYGAULFxcXFxcJDBYWFhYWDwYY&#10;GBgYGBgYGBgFDgAXEgkYGBMVFgQRBhgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY&#10;GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY&#10;GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAIAAAA&#10;AAAABAAAEQsAABELAAAAAQAAAAEAAMWhZwCpi5MAOCGnANy2XABUROMATzacAMimdQC5lmwAX03Z&#10;AIpsggDduGEAvp1/AEQroQBzVowA069rAHRfxQBbQZcAlHqnAH5ouwCigXcALBasAD8y9wDowVcA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYB&#10;ABYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWARUCABYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFgEVFRQCABYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYBFRUVFBQCABYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWARUVFRUUFBQCABYWFhYWFhYWFhYWFhYWFhYWFhYWFgEVFRUVFRQUFBQCABYWFhYW&#10;FhYWFhYWFhYWFhYWFhYBFRUVFRUVFBQUFBQCABYWFhYWFhYWFhYWFhYWFhYWARUVFRUVFRUUFBQU&#10;FBQCABYWFhYWFhYWFhYWFhYWFgEVFRUVFRUVFRQUFBQUFBQCABYWFhYWFhYWFhYWFhYGFRUVFRUV&#10;FRUVFBQUFBQUFBQCABYWFhYWFhYWFhYWFgQVFRUVFRUVFRUUFBQUFBQUFBQQFhYWFhYWFhYWFhYG&#10;FRUVFRUVFRUVFRQUFBQUFBQUFBQAFhYWFhYWFhYWFgsVFRUVFRUVFRUVFBQUFBQUFBQUFAcWFhYW&#10;FhYWFhYWCxUVFRUVFRUVFRUUFBQUFBQUFBQUBxYWFhYWFhYWFhYOFRUVFRUVFRUVBAwUFBQUFBQU&#10;FBQDFhYWFhYWFhYWFhYPFRUVFRUVFRUBCRQUFBQUFBQUDRYWFhYWFhYWFhYWFgoIFRUVFRUVEhYW&#10;DRQUFBQUFAUDFhYWFhYWFhYWFhYWFgoRBBUVCAEWFhYWEwUUFAwJAxYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW&#10;FhYWFhYWFhYWFhYWFhYWFhYWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=">
+
+    <link rel="stylesheet" type="text/css" href="https://zephyrzoosk-a.akamaihd.net/zephyr_ci_nodeBuild2493/css/cupid-auth-en.gz.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body class="">
+
+<div class="eros-frame__flexbox">
+
+    <aside class="eros-sidebar">
+        <div class="eros-sidebar__logo-block">
+            <img class="eros-sidebar__logo" alt="EROS | Zoosk Style Guide" src="img/eros-logo.png" />
+        </div>
+        <nav class="eros-nav">
+            <div class="eros-nav__title">
+                <span class="eros-nav__link eros-nav__title-link">GETTING STARTED</span>
+                <div class="eros-nav__dropdown-indicator"></div>
+                <div class="eros-nav__dropdown js-menu-toggle">
+                    <ul>
+                        <li class="eros-nav__dropdown-item">
+                            <a class="eros-nav__dropdown-item-link" href="index.html">Getting Started</a>
+                        </li>
+                        <li class="eros-nav__dropdown-item">
+                            <a class="eros-nav__dropdown-item-link" href="tokens.html">Tokens</a>
+                        </li>
+                        <li class="eros-nav__dropdown-item">
+                            <a class="eros-nav__dropdown-item-link" href="design.html">Design</a>
+                        </li>
+                        <li class="eros-nav__dropdown-item">
+                            <a class="eros-nav__dropdown-item-link" href="mixins.html">Mixins</a>
+                        </li>
+                        <li class="eros-nav__dropdown-item">
+                            <a class="eros-nav__dropdown-item-link" href="components.html">Components</a>
+                        </li>
+                        <li class="eros-nav__dropdown-item">
+                            <a class="eros-nav__dropdown-item-link" href="resources.html">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul>
+                <li class="eros-nav__item">
+                    <a class="eros-nav__link" href="">Markup and Style</a>
+                </li>
+                <li class="eros-nav__item">
+                    <a class="eros-nav__link" href="">Namespacing</a>
+                </li>
+                <li class="eros-nav__item">
+                    <a class="eros-nav__link" href="">BEM</a>
+                </li>
+                <li class="eros-nav__item">
+                    <a class="eros-nav__link" href="">Nesting</a>
+                </li>
+                <li class="eros-nav__item">
+                    <a class="eros-nav__link" href="">Refactoring</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section class="eros-main">
+
+        <header class="eros-header">
+            <div class="eros-frame eros-frame__flexbox--center">
+                <h1 class="eros-header__title">EROS docs 1.1.1</h1>
+                <input class="z-input eros-header__search" type="text" placeholder="Search Eros Docs" />
+            </div>
+        </header>
+
+        <div class="eros-main__title">
+            <div class="eros-frame">
+                <span>GETTING STARTED</span>
+            </div>
+        </div>
+
+        <div class="eros-guide">
+            <div class="eros-guide-section eros-frame">
+                <h1 class="h1">Markup and Style</h1>
+                <p>The main purpose of Eros is to enable designers and developers  to create a uniform look and feel across all Zoosk applications.</p>
+                <hr />
+
+                <h1 class="h1">Namespacing</h1>
+                <p>In order to accomplish this goal, we’ve chosen to use very specific naming techniques. These allow us to keep our code base flat, with low specificity, and keeps us from fighting specificity wars that start with frustration and end with !important. Though we base our naming on the BEM method, we have a few additions of our own outlined below.</p>
+                <hr />
+
+                <h1 class="h1">BEM</h1>
+                <p></p>
+                <hr />
+
+                <h1 class="h1">Nesting</h1>
+                <p>We want to keep an extremely flat css specificity across the site. Check out this article about the <a target="_blank" href="http://thesassway.com/beginner/the-inception-rule">Inception Rule</a>. There will be times when you will nest a class (specified below) and other than that you should not be nesting.</p>
+                <ol>
+                    <li>Pseudo Elements &amp; States (::before, :hover)</li>
+                    <li>Modifier Classes (is-*) (has-*)</li>
+                </ol>
+                <hr />
+
+                <h1 class="h1">Refactoring</h1>
+                <p>We have a lot of css here at Zoosk. A lot. During this transition we will be doing a good amount of refactoring to decouple common patterns so that they can be used site wide.</p>
+                <p>Legacy Code</p>
+                <p>Instead of retrofitting all of our legacy code, we are going to identify a pattern, and make a brand new style structure, and add it to the trove directory. That will now be the new source of truth moving forward. Then we can look back at the legacy code, identify html/css that looks the same visually, but built differently, and refactor it using the new pattern.</p>
+                <p>Bug Fixes</p>
+                <p>When a bug ticket is assigned to you, take the opportunity to look around and not only fix the bug, but see if we can refactor any of the html/css to use a trove pattern. Small cleanup items like this will go a long way.</p>
+                <hr />
+
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+
+
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="js/vendor/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
